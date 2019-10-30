@@ -3,8 +3,8 @@ using namespace std;
 int main()
 {
 
-    int k[200],m,r,j=0,b=0,c=1,z[200];
-    char s[200],t[200];
+    int k[100],m,r,j=0,b=0,c=1,z[100];
+    char s[100],t[100];
    float y=0,o=0,d,g;
    cout<<"enter any decimal number \n";
    cin>> d;
@@ -18,7 +18,7 @@ int main()
        j++;
       k[j]=r%2;
    }
-   cout<<"THE BINARY CONVERSION IS:";
+   cout<<"THE BINARY CONVERSION IS GIVEN BELOW:";
 
    while(j>0)
    {
@@ -58,7 +58,7 @@ cout<<"\n\n";
 
 
    }
-   cout<<"THE OCTAL CONVERSION IS:";
+   cout<<"THE OCTAL CONVERSION IS GIVEN BELOW:";
    while(j>0)
    {
    printf("%d",k[j]);
@@ -96,7 +96,7 @@ cout<<"\n\n";
 
 
    }
-   cout<<"THE HEXADECIMAL CONVERSION IS:";
+   cout<<"THE HEXADECIMAL CONVERSION IS GIVEN BELOW:";
    while(j>0)
    {
        if(k[j]>9)
